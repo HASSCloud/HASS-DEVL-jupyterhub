@@ -46,7 +46,7 @@ RUN mkdir -p /srv/jupyterhub/ \
  && chown jupyter:jupyter /srv/jupyterhub
 
 COPY files/jupyterhub_config.py /srv/jupyterhub/jupyterhub_config.py
-COPY files/ecocloud_logo.svg /srv/jupyterhub/ecocloud_logo.svg
+COPY files/tinker_logo.png /srv/jupyterhub/tinker_logo.png
 COPY files/jupyterhub-config.yaml /etc/jupyterhub/jupyterhub-config.yaml
 COPY files/ecocloud_hub_service.py /usr/local/bin/ecocloud_hub_service.py
 COPY files/entrypoint.sh /entrypoint.sh

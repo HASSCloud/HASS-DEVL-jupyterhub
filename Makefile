@@ -14,7 +14,7 @@
 
 .PHONY:	build push
 
-PREFIX = hub.bccvl.org.au/jupyter
+PREFIX = hub.bccvl.org.au/tinker
 IMAGE = jupyterhub
 TAG ?= 0.9.4
 BUILD_OPTS ?=
