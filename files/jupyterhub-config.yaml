@@ -24,7 +24,7 @@ JupyterHub:
   # it basically is the external url used by clients to conenct to the proxy
   bind_url: "http://127.0.0.1:8010"
 
-  logo_file: "/srv/jupyterhub/ecocloud_logo.svg"
+  logo_file: "/srv/jupyterhub/tinker_logo.png"
 
   ## Redirect user to server (if running), instead of control panel.
   redirect_to_server: false
