@@ -16,7 +16,7 @@
 
 PREFIX = hub.bccvl.org.au/tinker
 IMAGE = jupyterhub
-TAG ?= 0.9.4
+TAG ?= 0.9.4-1
 BUILD_OPTS ?=
 
 IMAGE_ARG = $(PREFIX)/$(IMAGE):$(TAG)
